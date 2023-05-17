@@ -12,9 +12,16 @@ public class Parking {
 
    
 
-    public Parking(byte freePlaces) {  //    adăugați un constructor in clasă astfel încât să seteze inițial numărul de spații libere egal cu - 6
+    //public Parking() {}  
+
+    public byte getFreePlaces() { 
+        return freePlaces;
+    }
+
+    public void setFreePlaces(byte freePlaces) {  //    adăugați un constructor in clasă astfel încât să seteze inițial numărul de spații libere egal cu - 6
         this.freePlaces = freePlaces;
     }
+
 
     
    // common setter and getter
