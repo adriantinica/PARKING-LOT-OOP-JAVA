@@ -4,7 +4,7 @@ public class App {
 
     
        // Let's create a parking lot
-       Parking mallParking = new Parking(6);
+       Parking mallParking = new Parking((byte)6);
        //Let's create a car
        Car sUVCar = new Car("Mercedes");
 
